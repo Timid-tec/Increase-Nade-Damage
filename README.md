@@ -5,8 +5,8 @@ A source mod plugin simply made to incease nade damage.
 - CS:GO
 
 # ConVars
-- sm_hePower - Power of HE nades. <Default: 1.3>
-- sm_heRadius - Radius of the nade.  <Default: 2.5>
+- sm_hePower - Power of HE nades. (Default: 1.3)
+- sm_heRadius - Radius of the nade.  (Default: 2.5)
 
 # How to Install
 - Donwload clantag-checker.smx and put into /csgo/addons/sourcemod/plugins
@@ -15,4 +15,4 @@ A source mod plugin simply made to incease nade damage.
 
 | Version | Change-Log          |
 | ------- | ------------------ |
-| 4.2.0   | Added if (client && GetClientTeam(client) > 1 || GetClientTeam(client) < 1) |
+| 4.2.0   | Added ConVar sm_hePower & sm_heRadius  |
