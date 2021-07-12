@@ -1,5 +1,3 @@
-#pragma semicolon 1
-
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
@@ -22,8 +20,8 @@ public void OnPluginStart()
 {
 	CreateConVar("ind_version", PLUGIN_VERSION, "Version of increased nade damage", FCVAR_NOTIFY | FCVAR_DONTRECORD);
 	
-	g_Cvar_HePower = CreateConVar("sm_hePower", "1.0", "Power of HE nades. <Default: 1.3>");
-	g_Cvar_HeRadius = CreateConVar("sm_heRadius", "2.3", "Radius of the nade.  <Default: 2.5>");
+	g_Cvar_HePower = CreateConVar("sm_hePower", "1.0", "Power of HE nades. (Default: 1.3)");
+	g_Cvar_HeRadius = CreateConVar("sm_heRadius", "2.3", "Radius of the nade.  (Default: 2.5");
 }
 
 public void OnEntityCreated(int client, const char[] szClassname)
