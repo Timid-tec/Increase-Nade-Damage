@@ -30,7 +30,7 @@ public Plugin myinfo =
 	author = PLUGIN_AUTHOR, 
 	description = "Increase HE Nade Damge and radius", 
 	version = PLUGIN_VERSION, 
-	url = ""
+	url = "https://steamcommunity.com/id/MrTimid/"
 }
 
 public void OnPluginStart()
