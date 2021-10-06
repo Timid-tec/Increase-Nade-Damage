@@ -9,7 +9,7 @@ A source mod plugin simply made to incease nade damage.
 - sm_heRadius - Radius of the nade.  (Default: 2.5)
 
 # How to Install
-- Donwload clantag-checker.smx and put into /csgo/addons/sourcemod/plugins
+- Donwload IncreaseNadeDamage.smx and put into /csgo/addons/sourcemod/plugins
 
 # Updates
 
